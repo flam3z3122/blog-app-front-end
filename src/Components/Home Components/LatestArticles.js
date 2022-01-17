@@ -41,8 +41,7 @@ function LatestArticles() {
     let navigate = useNavigate();
 
     const techBlog = BlogData.filter(
-        (blog) => blog.category === "Technology"
-      ) .splice(-1);
+        (blog) => blog.category === "Technology").splice(-1);
 
     const [postNumber] = useState(6);
     return (
