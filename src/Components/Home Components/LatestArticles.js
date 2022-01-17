@@ -71,7 +71,7 @@ function LatestArticles() {
               backgroundImage: `url(${techBlog[0].image})`,
               backgroundRepeat: "no-repeat",
               WebkitBackgroundSize: "cover",
-              filter: "brightness(80%)",
+              filter: "brightness(95%)",
             }}
             onClick={() =>
               navigate(`/${techBlog[0].category}/${techBlog[0].id}`)

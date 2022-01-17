@@ -178,7 +178,8 @@ const BlogData = [
           claps: 690,
           category: "Technology",
           image:
-            "https://images.unsplash.com/photo-1587071292164-aa5ab1c8c706?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGJvc2V8ZW58MHx8MHx8&w=1000&q=80",
+          "https://c4.wallpaperflare.com/wallpaper/262/350/392/blue-water-light-technology-wallpaper-preview.jpg",
+
           date: "January 12 2022",
           text: ` Excepteur et laboris et fugiat cupidatat pariatur nulla nisi proident mollit laborum. Sunt adipisicing nulla consequat et eu nostrud ipsum ullamco nulla. Ipsum nostrud est esse cupidatat et nostrud officia qui commodo tempor occaecat exercitation excepteur. Ut nisi magna eu dolore sint pariatur sunt amet Lorem laborum enim excepteur. Adipisicing adipisicing minim ut excepteur adipisicing esse aute laboris ipsum. Nulla cupidatat aliqua anim est fugiat nisi cupidatat non quis non. Lorem culpa mollit tempor nostrud occaecat cillum cupidatat id velit.`,
           tags: ["Technology", "Tech"],
@@ -295,7 +296,8 @@ const BlogData = [
           claps: 690,
           category: "Technology",
           image:
-            "https://c4.wallpaperflare.com/wallpaper/262/350/392/blue-water-light-technology-wallpaper-preview.jpg",
+          "https://images.unsplash.com/photo-1587071292164-aa5ab1c8c706?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGJvc2V8ZW58MHx8MHx8&w=1000&q=80",
+
           date: "January 12 2022",
           text: ` Excepteur et laboris et fugiat cupidatat pariatur nulla nisi proident mollit laborum. Sunt adipisicing nulla consequat et eu nostrud ipsum ullamco nulla. Ipsum nostrud est esse cupidatat et nostrud officia qui commodo tempor occaecat exercitation excepteur. Ut nisi magna eu dolore sint pariatur sunt amet Lorem laborum enim excepteur. Adipisicing adipisicing minim ut excepteur adipisicing esse aute laboris ipsum. Nulla cupidatat aliqua anim est fugiat nisi cupidatat non quis non. Lorem culpa mollit tempor nostrud occaecat cillum cupidatat id velit.`,
           tags: ["Technology", "Tech"],
