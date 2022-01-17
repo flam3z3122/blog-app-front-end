@@ -1,0 +1,106 @@
+#header {
+    margin-top: 1rem;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+  }
+
+
+.the{
+    display: inline-block;
+    transform: rotate(270deg);
+    margin-top: 40px;
+    width: 11px;
+    text-decoration: none;
+    height: 48px;
+    font: normal normal medium 32px/39px Montserrat;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1.56rem;
+
+}
+.siren{
+    font: bold 55px/87px Montserrat;
+    cursor: pointer;
+}
+
+
+.nav-bar {
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    margin: 1rem auto;
+  }
+.nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-size: 1.4rem;
+  }
+
+  
+.menu {
+    cursor: pointer;
+    position: absolute;
+    top: 1rem;
+    right: 10px;
+    display: none;
+  }
+
+.menu i {
+    font-size: 2rem;
+  }
+
+#check {
+    display: none;
+  }
+
+
+  
+  @media (max-width: 768px) {
+    #header {
+      width: 90%;
+    }
+    .head {
+      margin-right: auto;
+    }
+    .the {
+      font-size: 15px;
+      height: fit-content;
+      margin-top: 1.7rem;
+      margin-right: 2px;
+    }
+    .srien {
+      font-size: 35px;
+    }
+    .menu {
+      display: block;
+    }
+    .nav {
+      margin: 0;
+    }
+    .nav-bar {
+      display: none;
+      margin-top: 0;
+    }
+  
+    #check:checked ~ .nav-item {
+      display: flex;
+      flex-direction: column;
+    }
+    .nav a {
+      border-bottom: 1px solid silver;
+      padding: 5px 0;
+    }
+    .nav a:last-child {
+      border-bottom: none;
+      padding-bottom: 0;
+    }
+  }
+  
+  @media (max-width: 900px) {
+    #navCompo {
+      width: 90%;
+    }
+  }
