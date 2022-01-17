@@ -40,7 +40,7 @@ function LatestArticles() {
 
     let navigate = useNavigate();
 
-    const [postNumber, setpostNumber] = useState(6);
+    const [postNumber] = useState(6);
     return (
         <div className="LatestArticles-Container">
             <h2> Latest Articles </h2>
@@ -71,21 +71,21 @@ function LatestArticles() {
                         </div>
                         <div className="carousel-inner">
                             <div className="carousel-item active">
-                                <img className="low-brigtness radnom5gh415f" src={BlogData[0].image} className="d-block w-100" alt="covered" />
+                                <img className="low-brigtness " src={BlogData[0].image} className="d-block w-100" alt="covered" />
                                 <div className="carousel-caption d-md-block">
                                     <Link to={`/${BlogData[0].category}/${BlogData[0].id}`}> <h5>{BlogData[0].title}</h5></Link>
                                     <p>{BlogData[0].category} {BlogData[0].time}</p>
                                 </div>
                             </div>
                             <div className="carousel-item ">
-                                <img className="low-brigtness radnom54fgh15f" src={BlogData[1].image} className="d-block w-100" alt="secfa" />
+                                <img className="low-brigtness " src={BlogData[1].image} className="d-block w-100" alt="secfa" />
                                 <div className="carousel-caption d-md-block">
                                     <Link to={`/${BlogData[1].category}/${BlogData[1].id}`}> <h5>{BlogData[1].title}</h5></Link>
                                     <p>{BlogData[1].category} {BlogData[1].time}</p>
                                 </div>
                             </div>
                             <div className="carousel-item ">
-                                <img className="low-brigtness radnom541nhjk5f" src={BlogData[2].image} className="d-block w-100" alt="sas" />
+                                <img className="low-brigtness " src={BlogData[2].image} className="d-block w-100" alt="sas" />
                                 <div className="carousel-caption d-md-block">
                                     <Link to={`/${BlogData[2].category}/${BlogData[2].id}`}> <h5>{BlogData[2].title}</h5></Link>
                                     <p>{BlogData[2].category} {BlogData[2].time}</p>
