@@ -441,7 +441,7 @@ const BlogData = [
           claps: 200,
           category: "Food",
           image:
-            "https://images.unsplash.com/photo-1621241441637-ea2d3f59db32?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Zm9vZCUyMGRlbGl2ZXJ5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
+            "https://wallpapercave.com/wp/wp1929358.jpg",
           date: "January 12 2022",
           text: ` Occaecat est nostrud non sint officia reprehenderit commodo ea esse. Excepteur ullamco do in elit et culpa qui commodo Lorem consectetur occaecat. Enim adipisicing ut magna est excepteur et ullamco velit culpa ullamco ipsum qui dolore nostrud.`,
           tags: ["Food", "Tasty"],
@@ -454,7 +454,7 @@ const BlogData = [
           claps: 200,
           category: "Food",
           image:
-            "https://images.unsplash.com/photo-1483695028939-5bb13f8648b0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGZvb2QlMjBkZWxpdmVyeXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
+            "https://c32-cdn.guidingtech.com/optim/assets/189868/HD-Mouth-Watering-Food-Wallpapers-for-Desktop-11_4d470f76dc99e18ad75087b1b8410ea9.jpg?1573743471",
           date: "January 12 2022",
           text: ` Occaecat est nostrud non sint officia reprehenderit commodo ea esse. Excepteur ullamco do in elit et culpa qui commodo Lorem consectetur occaecat. Enim adipisicing ut magna est excepteur et ullamco velit culpa ullamco ipsum qui dolore nostrud.`,
           tags: ["Food", "Tasty"],
@@ -467,7 +467,7 @@ const BlogData = [
           claps: 200,
           category: "Food",
           image:
-            "https://images.unsplash.com/photo-1528510138849-786a5feddf94?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGZvb2QlMjBkZWxpdmVyeXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
+            "https://i.ytimg.com/vi/_7vruX-A7Yk/maxresdefault.jpg",
           date: "January 12 2022",
           text: ` Occaecat est nostrud non sint officia reprehenderit commodo ea esse. Excepteur ullamco do in elit et culpa qui commodo Lorem consectetur occaecat. Enim adipisicing ut magna est excepteur et ullamco velit culpa ullamco ipsum qui dolore nostrud.`,
           tags: ["Food", "Tasty"],
@@ -480,7 +480,7 @@ const BlogData = [
           claps: 200,
           category: "Food",
           image:
-            "https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Zm9vZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
+            "https://i.ytimg.com/vi/W6X8cvP8EwY/maxresdefault.jpg",
           date: "January 12 2022",
           text: ` Occaecat est nostrud non sint officia reprehenderit commodo ea esse. Excepteur ullamco do in elit et culpa qui commodo Lorem consectetur occaecat. Enim adipisicing ut magna est excepteur et ullamco velit culpa ullamco ipsum qui dolore nostrud.`,
           tags: ["Food", "Tasty"],
@@ -493,7 +493,7 @@ const BlogData = [
           claps: 200,
           category: "Food",
           image:
-            "https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGZvb2R8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60",
+            "https://image.shutterstock.com/image-photo/pav-bhaji-fast-food-dish-260nw-1133164967.jpg",
           date: "January 12 2022",
           text: ` Occaecat est nostrud non sint officia reprehenderit commodo ea esse. Excepteur ullamco do in elit et culpa qui commodo Lorem consectetur occaecat. Enim adipisicing ut magna est excepteur et ullamco velit culpa ullamco ipsum qui dolore nostrud.`,
           tags: ["Food", "Tasty"],
@@ -506,7 +506,7 @@ const BlogData = [
           claps: 200,
           category: "Food",
           image:
-            "https://media.istockphoto.com/photos/foods-high-in-zinc-picture-id1289940519?b=1&k=20&m=1289940519&s=170667a&w=0&h=u5BwIDikkJCxrQQopgYHW2rOi7XBmG3JOHJJvYIE2C0=",
+            "https://static2.tripoto.com/media/filter/tst/img/254497/TripDocument/1461690741_cover.jpg",
           date: "January 12 2022",
           text: ` Occaecat est nostrud non sint officia reprehenderit commodo ea esse. Excepteur ullamco do in elit et culpa qui commodo Lorem consectetur occaecat. Enim adipisicing ut magna est excepteur et ullamco velit culpa ullamco ipsum qui dolore nostrud.`,
           tags: ["Food", "Tasty"],
@@ -520,7 +520,7 @@ const BlogData = [
           category: "Food",
           image:
            
-            "https://images.unsplash.com/photo-1589010588553-46e8e7c21788?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Zm9vZCUyMGRlbGl2ZXJ5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNlSUk9FLMPjSObOVvgkPZ2F4TpQ_Vh7y03A&usqp=CAU",
           date: "January 12 2022",
           text: ` Occaecat est nostrud non sint officia reprehenderit commodo ea esse. Excepteur ullamco do in elit et culpa qui commodo Lorem consectetur occaecat. Enim adipisicing ut magna est excepteur et ullamco velit culpa ullamco ipsum qui dolore nostrud.`,
           tags: ["Food", "Tasty"],
@@ -533,7 +533,7 @@ const BlogData = [
           claps: 200,
           category: "Food",
           image:
-          "https://media.istockphoto.com/photos/classic-thai-food-dishes-picture-id1312283557?b=1&k=20&m=1312283557&s=170667a&w=0&h=hXAmitFiH9z0mK3GZdMDbkkcSl8Em84LIIlkHnVhpPE=",
+          "https://im.rediff.com/getahead/2015/oct/01cuisine-ithaka-sesame-zucchini.jpg",
           date: "January 12 2022",
           text: ` Occaecat est nostrud non sint officia reprehenderit commodo ea esse. Excepteur ullamco do in elit et culpa qui commodo Lorem consectetur occaecat. Enim adipisicing ut magna est excepteur et ullamco velit culpa ullamco ipsum qui dolore nostrud.`,
           tags: ["Food", "Tasty"],
