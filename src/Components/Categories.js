@@ -3,7 +3,7 @@ import { useNavigate, useParams } from "react-router-dom";
 import BlogData from "./BlogData";
 import TopPosts from "./Home Components/TopPost";
 
-const Categories = () => {
+const CategorizedBlogs = () => {
   let navigate = useNavigate();
   let categories = ["Bollywood", "Technology", "Hollywood", "Fitness", "Food"];
   let { category } = useParams();
@@ -18,8 +18,8 @@ const Categories = () => {
   });
   return (
     <div className="categorized-blogs">
-      <div className="flex latest-container">
-        <div className="latest-article-area">
+      <div className="flex latest-bollywood-container">
+        <div className="latest-bollywood-larea">
           <h2 className="categorized-blogs-h2">{category}</h2>
           <div className="hr categorized-blogs-hr" />
           <div className="blogs-container">
@@ -28,7 +28,7 @@ const Categories = () => {
                 <div key={item.id}>
                   {index > 0 ? <hr /> : <></>}
                   <div
-                    className="latest-article-card flex"
+                    className="latest-bollywood-card flex"
                     onClick={() => navigate(`/${item.category}/${item.id}`)}>
                     <img src={item.image} alt="movie-poster"></img>
                     <div className="latest-bollywood-card-info">
@@ -56,4 +56,4 @@ const Categories = () => {
   );
 };
 
-export default Categories;
+export default CategorizedBlogs;

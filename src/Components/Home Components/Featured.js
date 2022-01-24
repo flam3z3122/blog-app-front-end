@@ -15,7 +15,7 @@ const Featured = () => {
           backgroundImage: `url(${Anime[0].image})`,
           backgroundRepeat: "no-repeat",
           WebkitBackgroundSize: "cover",
-          // backgroundPosition:"center",
+          backgroundPosition:"center",
           // filter: "brightness(90%)",
         }}
         onClick={() => navigate(`/${Anime[0].category}/${Anime[0].id}`)}

@@ -7,8 +7,8 @@ const BlogData = [
           claps: 300,
           category: "Anime",
           image:
-          // "https://laverdadnoticias.com/__export/1621278169645/sites/laverdad/img/2020/08/24/naruto_boruto_como_ver_anime.png_284479219.png"
-          "https://cdn.animenewsnetwork.com/thumbnails/crop900x350/video/category/62/key_art_naruto.jpg",
+          "https://laverdadnoticias.com/__export/1621278169645/sites/laverdad/img/2020/08/24/naruto_boruto_como_ver_anime.png_284479219.png",
+          // "https://cdn.animenewsnetwork.com/thumbnails/crop900x350/video/category/62/key_art_naruto.jpg",
           date: "January 12 2022",
           text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer enim neque volutpat ac tincidunt.`,
           tags: ["Anime"],
