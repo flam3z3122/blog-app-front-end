@@ -1,14 +1,15 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import BlogData from "../BlogData";
+// import BlogData from "../BlogData";
 
-const LatestStories = () => {
+const LatestStories = ({data}) => {
   let navigate = useNavigate();
-  const hollywoodBlogs = BlogData.filter((blog) => blog.category === "Hollywood");
+  const hollywoodBlogs = data.filter((blog) => blog.category === "Hollywood");
   const latest = hollywoodBlogs.filter(
     (blog, index) =>
       index < hollywoodBlogs.length && index > hollywoodBlogs.length - 4
   );
+
   return (
     <div className="latest-hollywood">
       <h2> Latest Stories</h2>
@@ -19,7 +20,7 @@ const LatestStories = () => {
           <div
             className="latest-hollywood-card"
             key={item.id}
-            onClick={() => navigate(`/${item.category}/${item.id}`)}
+            onClick={() => navigate(`/article/${item.id}/${item.category}`)}
           >
             <div className="info">
               <h3>{item.title.slice(0, 60)}</h3>

@@ -115,3 +115,111 @@ const SingleBlog = () => {
 };
 
 export default SingleBlog;
+// import { useState, useEffect } from 'react';
+// import { useParams } from 'react-router-dom';
+// // import MoreSiren from './MoreSiren';
+// import axios from 'axios';
+
+// const Article = () => {
+
+//     const [data, setData] = useState([]);
+//     const { ID } = useParams()
+//     const { categories } = useParams()
+
+//   //   useEffect(()=>{
+//   //     axios.get(`https://react-blog-backend-full.herokuapp.com/api/v1/sirenBlog/article/${ID}/${categories}`).then(
+//   //         res => setData(res.data)
+//   //     )
+//   // },[categories])
+
+//     useEffect(
+//         () => {
+//             document.title = categories;
+//             let isMounted = true;
+//             axios.get(`https://react-blog-backend-full.herokuapp.com/api/v1/sirenBlog/article/${ID}/${categories}`)
+//             .then(
+//                 res => {
+//                     if (isMounted) {
+//                         setData(res.data)
+//                     }
+//                 }
+//             )
+//             return () => {
+//                 isMounted = false;
+//             }
+//         }, [data, ID, categories]
+//     );
+
+//     // const article = data.filter(blog => blog.id === parseInt(ID) && blog.category === categories)
+  
+//     return (
+//       // <div>
+//       //   fak;sdklas euuuuuudasd
+//       //       {data.filter((value) => (value.id === parseInt(ID) && value.category === categories )).map((val,index) => (
+//       //           <div className='articleContainer' key={index}>
+//       //               <p className='articleTitle'>{val.title}</p>
+//       //               <div className='articleProfileBox'>
+//       //                   <img src='https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX20574488.jpg' alt='' className='articleProfileImg' />
+//       //                   <div>
+//       //                       <p><b>{val.author}</b></p>
+//       //                       <p>{val.date}</p>
+//       //                   </div>
+//       //               </div>
+//       //               <img src={val.image} alt='' className='articleImg' />
+//       //               <p>{val.text}</p>
+//       //               <p> <b>9.3k Like</b></p>
+//       //               <hr />
+
+//       //               <div className='articleProfileBox'>
+//       //                   <img src='https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX20574488.jpg' alt='' className='articleProfileImg' />
+//       //                   <div>
+//       //                       <p>Written By</p>
+//       //                       <p><b>{val.Author}</b></p>
+//       //                       <p>{val.Date}</p>
+//       //                   </div>
+//       //               </div>
+//       //               <hr />
+//       //           </div>
+//       //       ))}
+
+//       //   {/* <MoreFromSiren rows={rows} /> */}
+//       //   </div>
+
+//         <>
+//             <div className="main-article-container">
+//                 hellos
+//                 {
+                  
+//                     data.filter(
+//                         (article) => article.id === parseInt(ID) && article.category === categories
+//                     )
+//                     .map(
+//                         (content, index) => <div key={index}>
+//                             <h3 className="article-title">{content.title} </h3>
+//                             <img className="article-image" src={content.image} alt="" />
+//                             <p className="article-body" >{content.text}</p>
+//                             <p className="article-context" >Let's talk about them...</p>
+//                             <p className="article-description" >This is about {content.title} which is popular on the social media platform and much to say is that {content.text}</p>
+//                             <div className="article-category-clap">
+//                                 <span className="article-category" >{content.category}</span>
+//                                 <span src="/images/rythm.jpg" alt="claps"className="rythm" />
+//                                 <p>{content.claps}</p>
+//                             </div>
+//                             <hr className="article-horizontal-line" />
+//                             <div className="article-user" >
+//                             <span src="/images/profilepicture.png" alt="down-arrow" className="profilepic" />
+//                                 <div className="article-user-division">
+//                                     <p className="article-user-written">written by <br/> </p>
+//                                     <p>{content.author}</p>
+//                                     <p className="article-user-date">January 31, 2022</p>
+//                                 </div>
+//                             </div>
+//                         </div>
+//                     )
+//                 }
+//             </div>
+//             {/* <MoreSiren /> */}
+//         </>
+//     )
+// }
+// export default Article;

@@ -1,12 +1,11 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import BlogData from "../BlogData";
 
 
 
-const TopPosts = () => {
+const TopPosts = ({data}) => {
   const navigate = useNavigate();
-  const sorted = BlogData.map((a) => {
+  const sorted = data.map((a) => {
     return { ...a };
   });
   sorted.sort(function (a, b) {
@@ -16,31 +15,39 @@ const TopPosts = () => {
     <div className="top-posts">
       <h2>Top Posts</h2>
       <div className="hr" />
+      {sorted.map((item , index)=>
+      index === 0 &&(
+        <div key={index}>      
       <div
         className="top-posts-card first-top-post "
-        onClick={() => navigate(`/${sorted[0].category}/${sorted[0].id}`)}
+        onClick={() => navigate(`/article/${item.id}/${item.category}`)}
       >
-        <img src={sorted[0].image} alt="poster"></img>
+        <img src={item.image} alt="poster"></img>
         <div className="flex">
           <div className="top-posts-card-info ">
-            <h3>{sorted[0].title.slice(0, 62)}</h3>
+            <h3>{item.title.slice(0, 62)}</h3>
             <span className="category-date">
-              {sorted[0].category}
-              <span>/ {sorted[0].date}</span>
+              {item.category}
+              <span>/ {item.date}</span>
             </span>
           </div>
           <div className="post-number">1</div>
         </div>
       </div>
+
+      </div>
+      
+      ))}
+
       {sorted.map(
         (item, index) =>
           index > 0 &&
           index < 4 && (
-            <div key={item.id}>
+            <div key={index}>
               <hr />
               <div
                 className="top-posts-card flex"
-                onClick={() => navigate(`/${item.category}/${item.id}`)}
+                onClick={() => navigate(`/article/${item.id}/${item.category}`)}
               >
                 <img src={item.image} alt="movie-poster"></img>
                 <div className="top-posts-card-info">
