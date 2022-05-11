@@ -452,13 +452,13 @@ h2 {
 .blog-body{
   display: flex;
 
-  align-items: start;
+  align-items: flex-start;
 }
 
 .blog-container{
   height: 230px;
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -500,8 +500,8 @@ h2 {
   font-size: 30px;
   font-weight: 500;
   display: flex;
-  justify-content: start;
-  align-items: start;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
 .latest-article-area {

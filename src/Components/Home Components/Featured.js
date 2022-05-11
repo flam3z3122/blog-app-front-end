@@ -16,7 +16,7 @@ const Featured = ({ data }) => {
 
     <div className='feature flex'>
       <div className='feature-left'>
-        {data.filter((value) => value.id === "1" && value.category === "Anime").map((val, index) => (
+        {data.filter((value) => value.id === 1 && value.category === "Anime").map((val, index) => (
 
           <Link to={`/article/${val.id}/${val.category}`} key={index}>
             <img src={val.image} alt='blogs' className='feature-left' style={{
@@ -34,7 +34,7 @@ const Featured = ({ data }) => {
         {Anime.filter((value, index) => index > 0).map((val, index) => (
 
           <div key={index}>
-            <Link to={`/${val.category}/${val.id}`}>
+            <Link to={`/article/${val.id}/${val.category}`}>
               <img src={val.image} alt='blogs' className='feature-right'
                 style={{
                   width: "100%",
