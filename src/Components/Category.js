@@ -5,8 +5,7 @@ import TopPosts from './Home Components/TopPost';
 
 export default function Category() {    
     const [data, setData] = useState([]);
-    const [post, setPost] = useState([]);
-    const [randomNo, setRandomNo] = useState();
+
 
     const { categories } = useParams();
 
@@ -28,16 +27,16 @@ export default function Category() {
         }, [data, categories]
     );
 
-    useEffect(
-        () => {
-            setRandomNo(Math.floor(Math.random() * ((5 - 1) + 1)) + 1);
+    // useEffect(
+    //     () => {
+    //         setRandomNo(Math.floor(Math.random() * ((5 - 1) + 1)) + 1);
 
-            axios.get("https://react-blog-backend-full.herokuapp.com/api/v1/sirenBlog/")
-            .then(
-                res => setPost(res.data)
-            )
-        }, [categories]
-    );
+    //         axios.get("https://react-blog-backend-full.herokuapp.com/api/v1/sirenBlog/")
+    //         .then(
+    //             res => setPost(res.data)
+    //         )
+    //     }, [categories]
+    // );
     
     return (
         <>

@@ -3,8 +3,8 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./Components/Home Components/Home"
 import Header from "./Components/Header";
-import Categories from "./Components/Categories";
-import SingleBlog from "./Components/SingleBlog";
+// import Categories from "./Components/Categories";
+// import SingleBlog from "./Components/SingleBlog";
 import ScrollUp from "./Components/ScrollUp";
 import Category from "./Components/Category";
 import Blog from "./Components/Blog";

@@ -100,7 +100,7 @@ const LatestArticle = ({data}) => {
         
         export default LatestArticle;
 
-          {/* 
+          /* 
 
         <div className="latest-bollywood-rarea ">
           <div className="advertisement">
@@ -109,7 +109,7 @@ const LatestArticle = ({data}) => {
           <TopPosts />
         </div>
       </div>
-    </div> */}
+    </div> */
 
 
 // import './LatestArticle.css';

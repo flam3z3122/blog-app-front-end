@@ -26,17 +26,17 @@ const Blog = () => {
         return () => {
             isMounted = false;
         }
-    }, [ ID, categories]
+    }, [data, ID, categories]
 );
 
 console.log(data);
 
-const tempBlogs = data.filter((blog) => blog.category === "Bollywood");
-const blogs = tempBlogs.filter(
-    (blog, index) => index < tempBlogs.length && index > tempBlogs.length - 9 
-  )
+// const tempBlogs = data.filter((blog) => blog.category === "Bollywood");
+// const blogs = tempBlogs.filter(
+//     (blog, index) => index < tempBlogs.length && index > tempBlogs.length - 9 
+//   )
 
-  let item = data.filter((item) => item.id === parseInt(ID)) 
+  let blogs = data.filter((item) => item.id === parseInt(ID)) 
   let moreArticles = data.filter(
     (item, index) => item.category === categories && item.id !== parseInt(ID)
   ).filter((item, index) => index < 3);

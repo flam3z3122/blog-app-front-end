@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 // import BlogData from "../BlogData";
 import "./Home.css"
 
@@ -16,7 +16,7 @@ const Featured = ({ data }) => {
 
     <div className='feature flex'>
       <div className='feature-left'>
-        {data.filter((value) => value.id == "1" && value.category === "Anime").map((val, index) => (
+        {data.filter((value) => value.id === "1" && value.category === "Anime").map((val, index) => (
 
           <Link to={`/article/${val.id}/${val.category}`} key={index}>
             <img src={val.image} alt='blogs' className='feature-left' style={{
